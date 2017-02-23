@@ -6,35 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0">
   <title>Shift Studios</title>
   <meta name="description" content="A design studio based out of an RV. We bring the design to you.">
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Oswald|Bungee+Inline|Bungee+Outline" rel="stylesheet">
 </head>
-
+<body>
 
 
 <div class="landing">
+  
   <header>
-    <h1>
-      <a href="">
-        <img src="images/galaxy-grid.png" alt="A background grid with an overlayed galaxy in an 80's style.">
-      </a>
-    </h1>
+  <div class="grid">
 
+    <div class="unit l-1-4 m-1-4 s-1-2 xs-1-2">
+      <h1>
+        <a href="index.html"><img class="img-flex" src="images/shift-logo-white.png" alt="The Shift logo.">
+        </a>
+      </h1>
+    </div>
+    
+    <div class="unit l-3-4 m-3-4 s-1-2 xs-1-2">
       <nav>
         <ul>
-          <li><a href="https://www.google.com">Our Work</a></li>
-          <li><a href="https://www.google.com">RVers</a></li>
-          <li><a href="https://www.google.com">Contact</a></li>
+          <li class="bungee"><a class="two-rem white" href="https://www.google.com">Our Work</a></li>
+          <li class="bungee"><a class="two-rem white" href="https://www.google.com">RV'ers</a></li>
+          <li class="bungee"><a class="two-rem white" href="https://www.google.com">Contact</a></li>
         </ul>
       </nav>
-  </header>
+    </div>
+
+  </div>
+</header>
+
 
   <div>
-    <h2 class="center">Road Tripping</h2>
-    <p>Shift is a design studio based out of an RV</p>
-    <p>Inspired by the 80's, born in the 90s and looking forward to the future.</p>
+    <h2 class="center blue four-rem margin-top-10">Road Tripping</h2>
+    <p class="center oswald white two-rem background-gradient pad-top-and-bot">Shift is a design studio based out of an RV.<br>Inspired by the 80s, born in the 90s and looking forward to the future.</p>
   </div>
 
-  <div class="down-arrow center">
-    <a></a>
-  </div>
+
+  <a href="https://www.google.com">
+    <div class="down-arrow">
+    </div>
+  </a>
 </div>
+
+</body>

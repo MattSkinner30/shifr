@@ -10,37 +10,185 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  min-height: 1800px;
 }
+
+body {
+  margin: 0;
+}
+
+/**
+font-family: 'Bungee', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Outline', cursive;
+**/
+
+
+/**
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRE-MADE CLASSES
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**/
 
 .center {
   text-align: center;
 }
 
-.landing {
+.bungee {
+  font-family: 'Bungee', cursive;
 }
 
-.down-arrow {
-    background: url(images/down-arrow-inactive.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    height: 150px;
+.oswald {
+  font-family: 'Oswald', sans-serif;
 }
 
-.down-arrow:hover {
-    background: url('images/down-arrow-active.png');
-    background-repeat: no-repeat;
-    background-size: 100px;
-    height: 150px;
+.pink {
+  color: #ec74ff;
+}
+
+.yellow {
+  color: #fffa3d;
+}
+
+.blue {
+  color: #80ddea;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.one-rem {
+  font-size: 1rem;
+}
+
+.one-and-half-rem {
+  font-size: 1.5rem;
+}
+
+.two-rem {
+  font-size: 2rem;
+}
+
+.three-rem {
+  font-size: 3rem;
+}
+
+.four-rem {
+  font-size: 4rem;
+}
+
+.five-rem {
+  font-size: 5rem;
+}
+
+.background-gradient {
+  background: radial-gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+}
+
+.margin-top-2 {
+  margin-top: 2%;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.margin-top-15 {
+  margin-top: 15%;
+}
+
+.margin-top-20 {
+  margin-top: 20%;
+}
+
+.margin-top-25 {
+  margin-top: 25%;
+}
+
+.margin-top-50 {
+  margin-top: 50%;
+}
+
+.pad-top-and-bot {
+  padding: 1em 0;
 }
 
 /**
-#Library {
-   background-image: url('LibraryTransparent.png');
-   height: 70px;
-   width: 120px;
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+END OF PRE-MADE CLASSES
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**/
+
+h1 {
+  max-width: 100%;
+  margin: 0;
 }
 
-#Library:hover {
-   background-image: url('LibraryHoverTrans.png');
+h1 a img {
+    max-width: 50%;
+    margin: 5%;
 }
-**/
+
+h2 {
+  font-family: 'Bungee Inline', cursive;
+}
+
+p {
+
+}
+
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 2%;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #80ddea;
+}
+
+.landing {
+  background: url('../images/galaxy-grid.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 1800px;
+}
+
+.down-arrow {
+  background: url('../images/down-arrow-inactive.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 135px;
+  width: 100px;
+  margin: 5% auto 0 auto;
+}
+
+
+.down-arrow:hover {
+    background: url('../images/down-arrow-active.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 135px;
+    margin: 5% auto 0 auto;
+}
